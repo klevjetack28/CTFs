@@ -1,0 +1,4 @@
+This ctf you were given a QR code that shows the flag in the address
+it gives you after you scan the code.
+
+Flag: picoCTF{p33k_@_b00_3f7cf1ae}

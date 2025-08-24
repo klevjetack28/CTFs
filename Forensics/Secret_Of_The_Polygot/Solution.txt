@@ -1,0 +1,5 @@
+The solution to this ctf was to open the file as a pdf to get the second half of the flag. After you have the second piece
+you see the actual type of file it is by running the file command and you see it is a png. You can change the file to
+a png by changing the extension. After you change the extension you can run the png and see the first half of the flag.
+
+Flag: picoCTF{f1u3n7_1n_pn9_&_pdf_724b1287}

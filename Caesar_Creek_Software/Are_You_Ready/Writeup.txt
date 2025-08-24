@@ -1,0 +1,3 @@
+The name of the file leads you to assume there is something different about the type of file you are given. I wanted to see the type of file that I am working with so I used the command 'file not-a-zip-file.txt' which returns 'not-a-zip-file.txt: Zip archive data, at least v2.0 to extract, compression method=deflate'. I used this to determine the type of file I was working with was secretly a zip file. Once I confirmed that the file was a zip file I unzipped it which gave me the file 'not-a-text-file.zip'. I decided to run cat on the file to see what is inside of the ".zip" file. It gave me the flag and also a really cool ASCII picture.
+
+Flag: flag{Look at y0u, h4ck3r. A pathet1c cr3ature of me4t and b0ne.}

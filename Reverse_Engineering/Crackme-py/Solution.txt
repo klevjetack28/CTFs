@@ -1,0 +1,3 @@
+I am not 100% sure how I should've solved this ctf. I am assuming the bit at actualy python code getting executed was just to overlook the important code. I just copied the code that decodes secret key into a seperate python file and ran it solo. 
+
+Flag: picoCTF{1|\/|_4_p34|\|ut_4593da8a}

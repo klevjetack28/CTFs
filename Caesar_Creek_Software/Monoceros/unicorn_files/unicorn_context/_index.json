@@ -1,0 +1,231 @@
+{
+    "arch": {
+        "arch": "x64"
+    },
+    "regs": {
+        "rax": 0,
+        "rbx": 0,
+        "rcx": 4222428312,
+        "rdx": 105,
+        "rsp": 140737488346000,
+        "rbp": 140737488346544,
+        "rsi": 93824994341696,
+        "rdi": 3,
+        "rip": 93824992233816,
+        "r8": 119,
+        "r9": 0,
+        "r10": 93824994340880,
+        "r11": 582,
+        "r12": 93824992233232,
+        "r13": 140737488346768,
+        "r14": 0,
+        "r15": 0,
+        "eflags": 514,
+        "cs": 51,
+        "ss": 43,
+        "ds": 0,
+        "es": 0,
+        "fs": 0,
+        "gs": 0
+    },
+    "segments": [
+        {
+            "start": 93824992231424,
+            "end": 93824992239616,
+            "name": "unicorn/decoder",
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": true
+            },
+            "content_file": "e671702224d928a0cea4e69da55e40c9.bin"
+        },
+        {
+            "start": 93824994332672,
+            "end": 93824994336768,
+            "name": "unicorn/decoder",
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": false
+            },
+            "content_file": "cc9bbc3e3f230f8532f39ff89935f35d.bin"
+        },
+        {
+            "start": 93824994336768,
+            "end": 93824994340864,
+            "name": "unicorn/decoder",
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "11377396f3f1507ea893573475430623.bin"
+        },
+        {
+            "start": 93824994340864,
+            "end": 93824994476032,
+            "name": "[heap]",
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "85811869e1463a045cfbeefc8da3f62b.bin"
+        },
+        {
+            "start": 140737347731456,
+            "end": 140737349726208,
+            "name": "/lib/x86_64-linux-gnu/libc-2.27.so",
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": true
+            },
+            "content_file": "c712fb444780b115b5e4474a209542d2.bin"
+        },
+        {
+            "start": 140737349726208,
+            "end": 140737351823360,
+            "name": "/lib/x86_64-linux-gnu/libc-2.27.so",
+            "permissions": {
+                "r": false,
+                "w": false,
+                "x": false
+            },
+            "content_file": ""
+        },
+        {
+            "start": 140737351823360,
+            "end": 140737351839744,
+            "name": "/lib/x86_64-linux-gnu/libc-2.27.so",
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": false
+            },
+            "content_file": "c8869ad761ceb13baf85946f8015c651.bin"
+        },
+        {
+            "start": 140737351839744,
+            "end": 140737351847936,
+            "name": "/lib/x86_64-linux-gnu/libc-2.27.so",
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "e5f063c669294657a81b8c3fae49bf29.bin"
+        },
+        {
+            "start": 140737351847936,
+            "end": 140737351864320,
+            "name": "",
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "bc623aa329900a17ede81b9cb5900a44.bin"
+        },
+        {
+            "start": 140737351864320,
+            "end": 140737352024064,
+            "name": "/lib/x86_64-linux-gnu/ld-2.27.so",
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": true
+            },
+            "content_file": "13cbe695e3d1869d7a2128ccda1a7d39.bin"
+        },
+        {
+            "start": 140737353908224,
+            "end": 140737353916416,
+            "name": "",
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "753a1c8d06133eca5d8918a71fea770d.bin"
+        },
+        {
+            "start": 140737354104832,
+            "end": 140737354117120,
+            "name": "[vvar]",
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": false
+            },
+            "content_file": ""
+        },
+        {
+            "start": 140737354117120,
+            "end": 140737354121216,
+            "name": "[vdso]",
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": true
+            },
+            "content_file": "d2fd78561a134b34ce7133797c97e322.bin"
+        },
+        {
+            "start": 140737354121216,
+            "end": 140737354125312,
+            "name": "/lib/x86_64-linux-gnu/ld-2.27.so",
+            "permissions": {
+                "r": true,
+                "w": false,
+                "x": false
+            },
+            "content_file": "a9b91745da24796f50e8bbf8b9ccba3c.bin"
+        },
+        {
+            "start": 140737354125312,
+            "end": 140737354129408,
+            "name": "/lib/x86_64-linux-gnu/ld-2.27.so",
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "dd13a528a5ac07957d7dc05e08d902e2.bin"
+        },
+        {
+            "start": 140737354129408,
+            "end": 140737354133504,
+            "name": "",
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "a9f9d74e80f8049bdbdcc9185ce915ec.bin"
+        },
+        {
+            "start": 140737488216064,
+            "end": 140737488351232,
+            "name": "[stack]",
+            "permissions": {
+                "r": true,
+                "w": true,
+                "x": false
+            },
+            "content_file": "2905c6005b99fc9b7a6bd18181b3576a.bin"
+        },
+        {
+            "start": 18446744073699065856,
+            "end": 18446744073699069952,
+            "name": "[vsyscall]",
+            "permissions": {
+                "r": false,
+                "w": false,
+                "x": true
+            },
+            "content_file": ""
+        }
+    ]
+}

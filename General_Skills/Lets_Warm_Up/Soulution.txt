@@ -1,0 +1,3 @@
+This ctf you just translated the hexadecimal value 0x70 to ASCII which is 'p'.
+
+Flag: picoCTF{p}

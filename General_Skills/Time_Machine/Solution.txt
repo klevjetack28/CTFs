@@ -1,0 +1,3 @@
+The solution to this ctf was to download the zip file, unzip it, and get the git log to recieve the flag.
+
+Flag: picoCTF{t1m3m@ch1n3_e8c98b3a}

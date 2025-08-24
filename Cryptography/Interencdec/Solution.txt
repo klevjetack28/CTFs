@@ -1,0 +1,8 @@
+The solution to this ctf was to decrypt the message with base64. We know they used base64 because it is all lower and
+upper case characters and also has two equals signs at the end which is padding for base64. Once we decrypt it once we
+notice it decrypts into another base64 messae for the same reason. After we decrypt that message we gey a message that
+appears to have been through a cipher. It was put through a caesar cipher and you can easily run a 
+"tr '[A-Za-z]' '[T-ZA-St-za-z]'" which will translate each letter in a string like a caesar cipher will and give you the
+flag.
+
+Flag: picoCTF{caesar_d3cr9pt3d_86de32d2}

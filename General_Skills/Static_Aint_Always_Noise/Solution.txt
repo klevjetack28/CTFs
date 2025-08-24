@@ -1,0 +1,8 @@
+When you solve this ctf you need to download both the bach file and the binary.
+
+After both are downloaded run the bash file with the binary as input.
+$ bash ltdis.sh static
+
+This will use the static binary as the input to the bash script and return a txt file containing all the strings inside the file. One of those trings in the 'static.ltdis.strings.txt' file will be the flag.
+
+Flag: picoCTF{d15a5m_t34s3r_ccb2b43e}

@@ -1,0 +1,3 @@
+The solution to this ctf if to launch Wireshark with the provided capture packets. After you launch it right click any of the packets and select "Follow" -> "TCP Stream" This will let you see what is being sent in each stream and if you up a few stream to stream 5 you will see it contains something that is very similar to a flag but looks to be a bit jumbled. My first though since the brackets were in the same spor just letters were different was a caeser cipher. It turned out to be a 13 letter Caeser Cipher.
+
+Flag: picoCTF{p33kab00_1_s33_u_deadbeef}

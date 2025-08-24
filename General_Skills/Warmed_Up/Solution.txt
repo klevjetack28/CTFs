@@ -1,0 +1,3 @@
+The solution to this ctf was to translate some hexadecimal values to base 10 values.
+
+Flag: picoCTF{61}

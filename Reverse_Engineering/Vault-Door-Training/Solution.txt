@@ -1,0 +1,4 @@
+All you do is look at the source java code and copy the password it is comparing to the user input. Than you wrap it in picoCTF{ *password* } and that is the password to get you into the vault and complete the ctf.
+
+Flag: picoCTF{w4rm1ng_Up_w1tH_jAv4_3808d338b46}
+

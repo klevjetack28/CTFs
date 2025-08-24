@@ -1,0 +1,14 @@
+The only thing you are given in this ctf is a python file. When you look at the contents of the python file a couple things to note are the bUsername_trial variable and the key_full_template_trial. These two variables are what we will be using for the solution. 
+
+We want to decrypt the full version of the key to get our flag and this can be done by looking up what the key_full_template_trial variable ismade of.
+
+key_part_static1_trial = "picoCTF{1n_7h3_|<3y_of_"
+key_part_dynamic1_trial = "xxxxxxxx"
+key_part_static2_trial = "}"
+key_full_template_trial = key_part_static1_trial + key_part_dynamic1_trial + key_part_static2_trial
+
+When looking at the decrypt key function in the program we see that all we are doing with the first part of the key is comparing if it is equal to the key_part_static1_trial variable. So we know our key will start with "picoCTF{1n_7h3_|<3y_of_". After the loop that checks that part of the key we are given we see some interesting code that checks if the next few characters are characters in the hashed output of our bUsername_trial value.
+
+The way I solved this solution was to have a python file run a script to output the hashed value with their positions. You then will just add those characters to the end of your current key plus the ending curly brace and you have your flag.
+
+Flag: picoCTF{1n_7h3_|<3y_of_f911a486}

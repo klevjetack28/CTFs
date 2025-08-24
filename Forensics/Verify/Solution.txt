@@ -1,0 +1,4 @@
+The solution to this ctf was to run a check sum on all the files and 
+pass it to a grep function using the command "sha256sum * | grep <checksum to compare>"
+
+Flag: picoCTF{trust_but_verify_c6c8b911}

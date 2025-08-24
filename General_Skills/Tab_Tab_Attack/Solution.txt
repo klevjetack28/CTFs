@@ -1,0 +1,3 @@
+For this ctf you are given a zip file. Once you unzip the file you are given a big file system that you are able to tab through. Once you get the the final file if you rin 'ls -a' you can see a hidden executable file that once ran will give you the flag.
+
+Flag: picoCTF{l3v3l_up!_t4k3_4_r35t!_d32e018c}

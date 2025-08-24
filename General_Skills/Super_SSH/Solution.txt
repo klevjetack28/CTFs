@@ -1,0 +1,3 @@
+The solution to this ctf what a simple ssh connection. Once you start the instance you are given a user, connectoin, and port which you can connect to using 'ssh ctf-player@titan.picoctf.net -p 63395'. This will connect you to the servertitan.picoctf.net as user ctf-player on port 63395. Once you are connected it will ask for your finger print, you just need to specify yes. After you say yes it will ask for a password you are given in the problem and after typing the password in you are given the flag.
+
+Flag: picoCTF{s3cur3_c0nn3ct10n_8306c99d}

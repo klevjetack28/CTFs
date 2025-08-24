@@ -1,0 +1,8 @@
+The solution to this ctf was the use a fundamentals of a binary search
+algorithm to guess the number. you start in the middle and it tells
+you higher or lower which determines which side the number is on. You can
+use this to eliminate half of the numbers each time you guess so it will 
+take log(n) guesses to guess the number, n being the number of elements
+you have.
+
+Flag: picoCTF{g00d_gu355_ee8225d0}

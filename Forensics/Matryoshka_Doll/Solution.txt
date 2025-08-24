@@ -1,0 +1,3 @@
+The way you start this ctf is to see if we can find any hidden data in the .jpg file we are given. One way to check this is if we can unzip the .jpg file it will look for any hidden .zip files at the beginning or end of the file. Fortunately for us all we needed to do is unzip the file and go to the directory it gives us and keep unzipping until we reach the file file. After we unzip the final file we are given a flag.txt file containing the flag.
+
+Flag: picoCTF{336cf6d51c9d9774fd37196c1d7320ff}
